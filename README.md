@@ -1,6 +1,6 @@
 # MCP gateway
 
-A local Python stdio proxy that exposes only explicitly allowed tools whose definitions match an operator-approved lock file.
+A local Python studio proxy that exposes only explicitly allowed tools whose definitions match an operator-approved lock file.
 
 Status: working first version, with unit tests, a real MCP transport integration test, and a small reproducible policy evaluation. This is a change-control boundary, not a semantic prompt-injection detector or a sandbox for malicious server processes.
 
