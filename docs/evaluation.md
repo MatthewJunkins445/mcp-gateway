@@ -28,8 +28,5 @@ The experiment asks whether definitions are blocked. It does not ask an LLM to f
 
 If someone labels every block as a poisoning detection, the confusion matrix is TP=5, FN=2, FP=3, TN=5. That yields a 71.4% true-positive rate and a 37.5% false-positive rate **on this authored scenario mix only**. The three benign blocks are intentional review requirements, and both misses are intentionally approved poisoned baselines. Changing the mix of approval states changes these numbers without changing the gateway.
 
-These figures therefore describe scenario blocking and review burden, not general poisoning-classifier accuracy. Do not report only the 5/5 mutated-attack result as "100% tool poisoning detection." The suite is small, authored alongside the implementation, and not independent or representative. There is no measured redaction recall across real secret/PII formats and no agent attack-success rate.
+These figures therefore describe scenario blocking and review burden, not general poisoning-classifier accuracy. Do not report only the 5/5 mutated-attack result as "100% tool poisoning detection." he suite is small, authored alongside the implementation, and not independent or representative. There is no measured redaction recall across real secret/PII formats and no agent attack-success rate.
 
-## Stronger follow-up evaluation
-
-Before claiming broad security efficacy, curate a larger independently labeled corpus with redistribution rights and exact provenance. Hold out attack families, preserve benign operational changes, and report results separately for first discovery, post-approval mutation, incorrectly approved baselines, and response-only attacks. An isolated agent harness with fake canary data would measure actual attempted and completed actions. Keep redaction precision/recall separate from pinning behavior.
