@@ -1,0 +1,14 @@
+{
+  "servers": {
+    "demo": {
+      "command": "C:/absolute/path/to/python.exe",
+      "args": ["F:/Personal_Projects/mcp-gateway/examples/server.py"],
+      "cwd": "F:/Personal_Projects/mcp-gateway"
+    }
+  },
+  "policy": {
+    "allow": ["demo/add", "demo/sample_secret"],
+    "deny": []
+  },
+  "secret_env": []
+}

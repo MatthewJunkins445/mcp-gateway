@@ -1,0 +1,18 @@
+[build-system]
+requires = ["setuptools>=77"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "mcp-pinning-gateway"
+version = "0.1.0"
+description = "Local MCP gateway with reviewed tool pins and default-deny policy"
+readme = "README.md"
+license = "MIT"
+requires-python = ">=3.11"
+dependencies = ["mcp==1.27.0", "jsonschema>=4.23,<5"]
+
+[project.scripts]
+mcp-gateway = "mcp_gateway.cli:main"
+
+[tool.setuptools.packages.find]
+include = ["mcp_gateway*"]
