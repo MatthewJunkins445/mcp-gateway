@@ -93,7 +93,7 @@ Global `--config PATH` and `--state DIRECTORY` options go before the command. Fi
 - Binary/resource content is rejected because this version cannot inspect it. Upstream result metadata is removed. If redaction makes structured output violate its declared schema, the response is withheld.
 - Audit records contain decisions, hashes, timestamps, and counts, without raw call arguments or responses. Audit write failures prevent further successful forwarding. Upstream exception text and stderr are not relayed to the client.
 
-Redaction is deliberately limited. It can miss encoded, fragmented, unfamiliar, or contextual secrets and can redact harmless text. It is not comprehensive PII removal. Tool arguments are sent to allowed upstreams after schema validation; this version does not perform outbound DLP.
+Redaction is limited. It can miss encoded, fragmented, unfamiliar, or contextual secrets and can redact harmless text. It is not comprehensive PII removal. Tool arguments are sent to allowed upstreams after schema validation; this version does not perform outbound DLP.
 
 ## Run checks
 
