@@ -60,8 +60,8 @@ For clients supporting `mcpServers` configuration, adapt these paths:
       "command": "F:/Personal_Projects/mcp-gateway/.venv/Scripts/python.exe",
       "args": [
         "-m", "mcp_gateway.cli",
-        "--config", "F:/Personal_Projects/mcp-gateway/gateway.json",
-        "--state", "F:/Personal_Projects/mcp-gateway/.gateway",
+        "--config", "YOUR_PATH/mcp-gateway/gateway.json",
+        "--state", "YOUR_PATH/mcp-gateway/.gateway",
         "serve"
       ]
     }
