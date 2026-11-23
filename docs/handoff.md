@@ -6,7 +6,6 @@
 
 Python stdio gateway; multiple configured local upstreams; per-tool approvals and revocations; exact allow/deny policy; full-definition pins; safe diff rendering; response redaction; hash-chained audit verification; demo server; dependency lock; unit/integration tests; an attributed, inert evaluation suite and report.
 
-No installed client configuration was changed, no server is intentionally left running, and nothing was published. Runtime candidate/pin/audit state used by tests is temporary. The example configuration still requires your actual executable and project paths.
 
 ## Review findings addressed
 
