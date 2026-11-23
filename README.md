@@ -1,6 +1,6 @@
 # MCP gateway
 
-A local Python studio proxy that exposes only explicitly allowed tools whose definitions match an operator-approved lock file.
+A local Python stdio proxy that exposes only explicitly allowed tools whose definitions match an operator-approved lock file.
 
 Status: working first version, with unit tests, a real MCP transport integration test, and a small reproducible policy evaluation. This is a change-control boundary, not a semantic prompt-injection detector or a sandbox for malicious server processes.
 
@@ -57,7 +57,7 @@ For clients supporting `mcpServers` configuration, adapt these paths:
 {
   "mcpServers": {
     "gateway": {
-      "command": "F:/Personal_Projects/mcp-gateway/.venv/Scripts/python.exe",
+      "command": "YOUR_PATH/mcp-gateway/.venv/Scripts/python.exe",
       "args": [
         "-m", "mcp_gateway.cli",
         "--config", "YOUR_PATH/mcp-gateway/gateway.json",

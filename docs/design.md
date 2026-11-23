@@ -4,7 +4,7 @@
 
 ## Agreed scope and implementation plan
 
-The user selected Python and a local stdio gateway. The project lives separately in `F:/Personal_Projects/mcp-gateway`.
+Built in Python as a local stdio gateway.
 
 1. Use the official MCP SDK for both agent-facing server and upstream clients.
 2. Discover complete tool definitions into a candidate file, show a diff, and require an exact candidate digest for per-tool approval.

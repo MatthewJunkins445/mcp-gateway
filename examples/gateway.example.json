@@ -2,8 +2,8 @@
   "servers": {
     "demo": {
       "command": "C:/absolute/path/to/python.exe",
-      "args": ["F:/Personal_Projects/mcp-gateway/examples/server.py"],
-      "cwd": "F:/Personal_Projects/mcp-gateway"
+      "args": ["YOUR_PATH/mcp-gateway/examples/server.py"],
+      "cwd": "YOUR_PATH/mcp-gateway"
     }
   },
   "policy": {
